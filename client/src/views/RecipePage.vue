@@ -39,7 +39,7 @@
     </div>
     <div v-else class="recipe_information shadow-2xl">
       <template v-if="recipeLoaded">
-        <div class="recipe_title">
+        <div style="text-align: left" class="recipe_title">
           <h1 class="ml-4">{{recipe.title}}</h1>
           <p
             class="mb-1 ml-2"
